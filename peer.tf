@@ -8,4 +8,4 @@ resource "aws_vpc_peering_connection" "peer" {
   tags = {
     Side = "Robot-${var.ENV}-default-vpc-peering"
   }
-}
+} 
